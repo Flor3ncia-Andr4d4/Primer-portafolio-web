@@ -1,0 +1,62 @@
+body {
+
+    background-color: rgba(240, 154, 225, 0.945);
+    margin: 0;
+
+}
+
+:root {
+    --main-color: #FFFFFF;
+}
+
+.bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(2px);
+}
+
+.bg-text {
+    color: var(--main-color);
+    font-weight: bolder;
+    border: 5px solid rgb(59, 9, 55);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.custom-section {
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cb {
+    display: flex;
+}
+
+.card-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+footer {
+    background: #79016996;
+    padding: 20px 0;
+    color: var(--main-color);
+    margin-top: 40px;
+}
+
+.home {
+    background-image: url("file:///D:/usuarios/alumno/descargas/WhatsApp%20Image%202022-09-19%20at%2023.06.35.jpeg");
+}
